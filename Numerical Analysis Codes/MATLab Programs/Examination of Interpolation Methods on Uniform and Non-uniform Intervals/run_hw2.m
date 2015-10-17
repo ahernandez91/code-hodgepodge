@@ -1,0 +1,15 @@
+chebysev_lagrange_n_10
+figure;
+chebysev_lagrange_n_19
+figure;
+lagrange_vs_barycentric_chebysev_n_50
+figure;
+lagrange_vs_barycentric_chebysev_n_99
+figure;
+uniform_lagrange_n_10
+figure;
+uniform_lagrange_n_19
+figure
+lagrange_vs_barycentric_uniform_n_50
+figure;
+lagrange_vs_barycentric_uniform_n_99
