@@ -1,0 +1,102 @@
+Note from Vim/Unix Workshop
+
+scp your_username@remotehost.edu:foobar.txt/some/local/directory (this copies from ssh server to local computer
+
+scp filename host@name: ~
+
+~ refers to current directory
+
+
+.. parent directory of current working directory
+
+touch: creates an empty file
+
+rm -r: lets you delete a directory and asks if you want to delete a file in that directoy
+
+rm -rf: forces the deleting so you are not prompted for each file
+
+cat: prints out contents of file
+
+echo: like a print function (echo by default prints a new line by default) (-n: removes new line)
+
+mv: moves a file (can also rename a file/folder)
+
+cp: copying a file (makes a new file that is copy of the original file)
+
+less: examine a file with scrolling
+
+>: write to a file
+>>: append to file
+(These are called redirection operators) i.e. cat file.txt > new_file.txt
+
+man [command name]: takes you to manual for that command and explains it 
+
+grep <string> file: find a string in a file
+
+find <dir> -name <file>: finds a file in a directory with that name. make sure -name flag is included.
+
+|: piping, connect stdout to stdin
+	ie find .| grep ( the . lets you print all possible paths/files in that directory)
+
+&: run in background
+
+curl/wget: downloads a webpage
+
+*: wildcard command 
+
+`: back tick for cat `find . -name thing`
+
+$: takes stdout to cat (i.e. cat $(things))
+
+UNIX Permissions
+
+ls -l: list files and their permissions
+
+chmod ### filename sets permissions for that file
+	can also do chmod +x, +r, +w changes execute, read, write permissions respectively. (Can this remove them?)
+	Wikipedia for permission chart, but here is a simply copy
+	
+#	Permission					rwx
+7	read, write and execute		111
+6	read and write				110
+5	read and execute			101
+4	read only					100
+3	write and execute			011
+2	write only					010
+1	execute only				001
+0	none						000
+
+
+
+
+VIM (Vi Editor)
+
+:tabnew - creates a new tabe (gT gt to move betweens tabs)
+
+%s/word to replace/replacement word/g in command mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
